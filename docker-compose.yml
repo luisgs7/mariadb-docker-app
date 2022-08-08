@@ -13,6 +13,6 @@ services:
       TZ: America/Sao_Paulo
 
     volumes:
-      - ~/projects/database/mariadb/db:/var/lib/mysql
+      - ./db:/var/lib/mysql
     ports:
       - 3306:3306
